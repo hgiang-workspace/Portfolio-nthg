@@ -12,9 +12,9 @@
         <properties>
             <!-- JDBC -->
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/portfolio_db_ycxm"/>
-            <property name="javax.persistence.jdbc.user" value="portfolio_db_ycxm_user"/>
-            <property name="javax.persistence.jdbc.password" value="hbHl2DfBOJk3J8pOzaO3jvi8lkhQrNlK"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/portfolio_db"/>
+            <property name="javax.persistence.jdbc.user" value="portgres"/>
+            <property name="javax.persistence.jdbc.password" value="nthg"/>
 
             <!-- Hibernate -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL81Dialect"/>

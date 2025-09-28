@@ -3,7 +3,9 @@ package dao;
 import model.Homework;
 
 import javax.persistence.*;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class HomeworkDAO {
 
