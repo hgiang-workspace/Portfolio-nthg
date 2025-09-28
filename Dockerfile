@@ -1,12 +1,12 @@
 # --- build stage ---
-FROM maven:3.9.9-openjdk-17 AS build
+FROM maven:3.9.9-openjdk-11 AS build
 WORKDIR /app
 COPY pom.xml .
 COPY src ./src
 RUN mvn -DskipTests package
 
 # --- runtime stage (Tomcat) ---
-FROM tomcat:9.0-jdk17-openjdk
+FROM tomcat:9.0-jdk11-openjdk
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
 
